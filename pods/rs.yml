@@ -42,7 +42,7 @@ spec:
     - host: "test.devops-b47.ml"
       http:
         paths:
-          - path: "/bar"
+          - path: /
             backend:
               service:
                 name: frontend-svc
