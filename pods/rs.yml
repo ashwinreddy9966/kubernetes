@@ -40,11 +40,10 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: "test."
+    - host: "test.devops-b47.ml"
       http:
         paths:
-          - pathType: Prefix
-            path: "/bar"
+          - path: "/bar"
             backend:
               service:
                 name: service1
