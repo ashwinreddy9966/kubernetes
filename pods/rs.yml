@@ -39,10 +39,13 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: test.devops-b47.ml
+    - host: "test."
       http:
         paths:
-          - path: /
+          - pathType: Prefix
+            path: "/foo"
             backend:
-              serviceName: frontend-svc
-              servicePort: 80
+              service:
+                name: service2
+                port:
+                  number: 80
