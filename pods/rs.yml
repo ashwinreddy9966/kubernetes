@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx
+          image: httpd
 
 ---
 apiVersion: v1
