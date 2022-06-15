@@ -6,7 +6,6 @@ metadata:
     app: guestbook
     tier: frontend
 spec:
-  # modify replicas according to your case
   replicas: 3
   selector:
     matchLabels:
@@ -46,6 +45,6 @@ spec:
           - path: "/bar"
             backend:
               service:
-                name: service1
+                name: frontend-svc
                 port:
                   number: 80
