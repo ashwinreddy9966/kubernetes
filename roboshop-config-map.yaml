@@ -20,5 +20,5 @@ kind: ConfigMap
 metadata:
   name: cart-cm
 data:
-  CATALOGUE_HOST: 
+  CATALOGUE_HOST: catalogue-roboshop
   REDIS_HOST: redis-prod.roboshop.internal
