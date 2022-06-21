@@ -41,5 +41,5 @@ data:
   CART_HOST: cart-roboshop
   USER_HOST: user-roboshop
   AMQP_HOST: rabbitmq-prod.roboshop.internal
-  AMQP_USER: 
-  AMQP_PASS:
+  AMQP_USER: roboshop
+  AMQP_PASS: roboshop123
