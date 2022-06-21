@@ -38,6 +38,8 @@ kind: ConfigMap
 metadata:
   name: payment-cm
 data:
-  CART_HOST: mysql-prod.roboshop.internal
+  CART_HOST: 
   USER_HOST:
-  
+  AMQP_HOST:
+  AMQP_USER:
+  AMQP_PASS:
