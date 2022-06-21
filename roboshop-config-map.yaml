@@ -31,3 +31,11 @@ metadata:
 data:
   DB_HOST: mysql-prod.roboshop.internal
   CART_ENDPOINT: cart-roboshop
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: payment-cm
+data:
+  DB_HOST: mysql-prod.roboshop.internal
