@@ -38,8 +38,8 @@ kind: ConfigMap
 metadata:
   name: payment-cm
 data:
-  CART_HOST: 
-  USER_HOST:
-  AMQP_HOST:
-  AMQP_USER:
+  CART_HOST: cart-roboshop
+  USER_HOST: user-roboshop
+  AMQP_HOST: rabbitmq-prod.roboshop.internal
+  AMQP_USER: 
   AMQP_PASS:
