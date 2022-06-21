@@ -29,5 +29,5 @@ kind: ConfigMap
 metadata:
   name: shipping-cm
 data:
-  DB_HOST: catalogue-roboshop
-  CART_ENDPOINT: cart.roboshop.internal
+  DB_HOST: mysql-prod.roboshop.internal
+  CART_ENDPOINT: cart-roboshop
